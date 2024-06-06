@@ -1,6 +1,6 @@
 {
     "name": "hottokeki",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "",
     "main": "index.js",
     "type": "module",
@@ -8,6 +8,9 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "build": "npx tsc",
       "dev": "node dist/index.js"
+    },
+    "bin": {
+        "hottokeki": "./dist/index.js"
     },
     "keywords": [],
     "author": "",
